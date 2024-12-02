@@ -1,0 +1,71 @@
+:root {
+    
+}
+
+* {
+    /* border-color: black;
+    border-style: solid;
+    border-top-width: 1px; */
+}
+
+body {
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    resize: horizontal;
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+}
+
+.containers button {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: left;
+}
+
+.containers button:hover {
+    background-color: grey;
+}
+
+.node {
+    display: flex;
+    flex-direction: column;
+}
+
+.node button {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: left;
+}
+
+.node button:hover {
+    background-color: grey;
+}
+
+
+canvas {
+    background: blue;
+}
+
+footer {
+
+}
